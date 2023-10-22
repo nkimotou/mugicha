@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(CPP-Primer)
 
 add_executable(mugicha
-        CPP-Primer/basics.cpp
-        CPP-Primer/basics.h)
+        CPP-Primer/output.cpp
+        CPP-Primer/output.h)
