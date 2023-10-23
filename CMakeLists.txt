@@ -8,5 +8,4 @@ include_directories(CPP-Primer)
 add_executable(mugicha
         CPP-Primer/output.cpp
         CPP-Primer/output.h
-        CPP-Primer/variables.h
-        CPP-Primer/variables.cpp)
+)
