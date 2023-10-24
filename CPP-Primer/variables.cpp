@@ -7,6 +7,7 @@
 int main() {
     /* Here we can declare variables and data types.
      * We can set up strings and concatenate them.
+     * We can also set up booleans to check if something is true or false (1 or 0).
      */
     int num = 15;
     double nums = 15.5;
