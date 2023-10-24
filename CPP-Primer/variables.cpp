@@ -9,6 +9,8 @@ int main() {
     double nums = 15.5;
     char letters = 'n';
     bool greaterThan = (nums > num);
-    std::cout << "let's return some data" << std::endl;
-    return greaterThan;
+    std::cout << "let's return some data. nums > num?: " << greaterThan << std::endl;
+    // output will be '1' because greaterThan is a boolean. 1 = True, 0 = False.
+    std::cout << "what char does variable 'letters' represent?: " << letters << std::endl;
+    return 0;
 };
