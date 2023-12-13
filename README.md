@@ -8,7 +8,6 @@ Welcome to the C++ Primer repository! This project is a work in progress, aiming
 1. [Introduction to C++](#introduction-to-c++)
    - What is C++?
    - Key Features and Advantages
-   - Setting Up Your Development Environment
 
 2. [C++ Basics](#c++-basics)
    - Syntax and Structure
@@ -41,14 +40,6 @@ C++ is an extension of the C programming language with added features such as cl
 ### Key Features and Advantages
 
 Explore the features that make C++ a preferred language for many applications, including performance, flexibility, and the ability to use both procedural and object-oriented programming paradigms.
-
-### Setting Up Your Development Environment
-
-Follow the step-by-step guide in the [Development Environment Setup](dev-environment-setup.md) document to configure your system for C++ programming.
-
-## C++ Basics
-
-This section covers the foundational elements of C++, including syntax, variables, and control flow statements. If you're new to programming, these topics will provide a solid understanding to build upon.
 
 ### Syntax and Structure
 
@@ -109,10 +100,6 @@ Explore the powerful algorithms provided by the STL for common operations on con
 ### Strings and Input/Output
 
 Learn how to manipulate strings in C++ and understand the input/output facilities provided by the standard library.
-
-## Contributing
-
-We welcome contributions to improve and expand this primer. If you have suggestions, corrections, or additional content to add, please refer to our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## License
 
