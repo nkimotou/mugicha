@@ -3,7 +3,7 @@ project(mugicha)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(CPP-Primer, simple_examples)
+include_directories(simple_examples)
 
 add_executable(mugicha
         CPP-Primer/variables.cpp
