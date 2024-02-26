@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 /*
  * Set up methods for complex number objects.

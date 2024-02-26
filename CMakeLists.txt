@@ -10,4 +10,6 @@ add_executable(mugicha
         CPP-Primer/variables.h
         simple_examples/complex_number_objects.cpp
         simple_examples/complex_number_objects.h
+        simple_examples/complex_numbers_extended.cpp
+        simple_examples/complex_numbers_extended.h
 )
