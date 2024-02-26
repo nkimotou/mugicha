@@ -1,73 +1,52 @@
-#include "complex_number_objects.h"
 #include <iostream>
 #include <cmath>
 
 /*
-*Create a class named Complex to represent complex numbers.
-*Use the main() function and create at least three complex number objects and test all member functions of the Complex class.
-*/
+ * Set up methods for complex number objects.
+ * Set up test in main method.
+ */
 
-using namespace std;
-
-// Set up class "Complex" for methods
-class Complex{
-
+class Complex {
 public:
-    // Constructor "Complex" for initializing real and imaginary numbers
-    Complex(){
-        real = 0;
-        imaginary = 0;
+    // Use member initialization list
+    Complex() : real(0), imaginary(0) {}
+    // Constructor with parameters
+    Complex(double realNums, double imagNums) : real(realNums), imaginary(imagNums) {}
+    // Marking print() as const since it doesn't modify object state
+    void print() const {
+        std::cout << real << " + " << imaginary << "i";
     }
-    // Print method for printing out (a+bi) formatted numbers
-    void print(){
-        cout<<real<< " + " <<imaginary<<"i";
-    }
-    // Set method for Double datatype
-    void set(double realNums, double imagNums){
+
+    // Get numbers
+    double getReal() const { return real; }
+    double getImaginary() const { return imaginary; }
+
+    // Set numbers
+    void set(double realNums, double imagNums) {
         real = realNums;
         imaginary = imagNums;
     }
-    // Set up method to get real numbers
-    double getReal(double realNum){
-        real = realNum;
-        cout<<realNum;
-    }
-    // Set up method to get imaginary numbers
-    double getImaginary(double imagNum){
-        imaginary = imagNum;
-        cout<<imagNum;
-    }
 
-// Set private double constants
 private:
-
     double real;
     double imaginary;
-
 };
 
-// Test complex numbers output
-int main(){
-
+int main() {
+    // Initialize c1 with default constructor
     Complex c1;
-    cout<<"Complex number C1 is: ";
+    std::cout << "Complex number C1 is: ";
     c1.print();
-    cout<<endl;
-    //set method
-    cout<<"Complex number C2 is: ";
-    c1.set(3.3, 4.4);
-    c1.print();
-    cout<<endl;
-    //get method
-    Complex c2;
-    cout<<"Complex number C3's real part is: ";
-    c2.getReal(5.5);
-    cout<<endl;
+    std::cout << std::endl;
+    // Initialize c2 with parameterized constructor
+    Complex c2(3.3, 4.4);
+    std::cout << "Complex number C2 is: ";
+    c2.print();
+    std::cout << std::endl;
 
-    cout<<"Complex number C3's imaginary part is: ";
-    c2.getImaginary(6.6);
-    cout<<endl;
+    // Accessing and printing real and imaginary parts directly
+    std::cout << "Complex number C3's real part is: " << c2.getReal() << std::endl;
+    std::cout << "Complex number C3's imaginary part is: " << c2.getImaginary() << std::endl;
 
     return 0;
-
 }
