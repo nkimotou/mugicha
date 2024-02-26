@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
-
 /*
  * Set up methods for complex number objects.
  * Set up test in main method.
