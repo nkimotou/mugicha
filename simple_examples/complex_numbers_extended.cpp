@@ -1,13 +1,16 @@
 #include "complex_numbers_extended.h"
 
 #include <iostream>
-
+// Build upon the complex class from "complex_number_objects.cpp"
 class Complex {
 private:
     double real;
     double imaginary;
-
 public:
+    /*
+     * Set up constructor member functions:
+     * print, add, subtract, multiply, divide, and copy (using & to reference initialized members)
+     */
     Complex(double realNum = 0, double imagNum = 0) : real(realNum), imaginary(imagNum) {}
 
     void print() const {
@@ -40,13 +43,17 @@ public:
         imaginary = complex.imaginary;
         return *this;
     }
-
+    // Set up destructor for complex class objects
     ~Complex() {
         std::cout << "Destructor for this function: (" << real << " + " << imaginary << "i)" << std::endl;
     }
 };
 
 int main() {
+    /*
+     * Testing methods
+     *
+     */
     Complex c1(1.1, 2.2), c2, c3(3.3, 4.4), c4(5.5, 6.6);
 
     std::cout << "Complex number C1: ";
