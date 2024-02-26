@@ -8,9 +8,9 @@
 
 class Complex {
 public:
-    // Use member initialization list
+    // Member initialization list
     Complex() : real(0), imaginary(0) {}
-    // Constructor with parameters
+    // Constructor setup with parameters
     Complex(double realNums, double imagNums) : real(realNums), imaginary(imagNums) {}
     // Marking print() as const since it doesn't modify object state
     void print() const {
