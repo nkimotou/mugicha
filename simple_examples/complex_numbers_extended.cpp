@@ -6,6 +6,7 @@ class Complex {
 private:
     double real;
     double imaginary;
+
 public:
     /*
      * Set up constructor member functions:

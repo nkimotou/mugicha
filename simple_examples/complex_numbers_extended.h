@@ -1,6 +1,4 @@
-//
-// Created by Nanami Kimoto on 2/25/24.
-//
+
 
 #ifndef MUGICHA_COMPLEX_NUMBERS_EXTENDED_H
 #define MUGICHA_COMPLEX_NUMBERS_EXTENDED_H

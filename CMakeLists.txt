@@ -12,4 +12,6 @@ add_executable(mugicha
         simple_examples/complex_number_objects.h
         simple_examples/complex_numbers_extended.cpp
         simple_examples/complex_numbers_extended.h
+        simple_examples/complex_overloaded_operators.cpp
+        simple_examples/complex_overloaded_operators.h
 )
