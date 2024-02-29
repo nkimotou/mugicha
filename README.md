@@ -1,5 +1,9 @@
 # C++ is a powerful and widely-used programming language known for its efficiency, flexibility, and performance. Here's an overview of C++:
 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExczljdW8wZTFudGlqcW9ydXQ1NzQyaXFzM2R6YTlybWw4cmgwYjNxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l8G8sdTRURRBANPpPR/giphy.gif"/>
+</div>
+
 ## General-Purpose Language: 
 C++ is a general-purpose programming language designed for system programming, application development, game development, and more. It provides low-level control over hardware resources while also supporting high-level programming constructs.
 
