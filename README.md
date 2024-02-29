@@ -33,6 +33,6 @@ C++ has a large and active community of developers contributing to its ecosystem
 
 ## License
 
-This primer is licensed under the [MIT License](LICENSE.md). Feel free to use and modify the content for your learning purposes.
+This primer is licensed under the [MIT License]. Feel free to use and modify the content for your learning purposes.
 
 
