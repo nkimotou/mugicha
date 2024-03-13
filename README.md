@@ -31,8 +31,6 @@ C++ is widely used in domains such as system programming (operating systems, dev
 ## Community and Ecosystem: 
 C++ has a large and active community of developers contributing to its ecosystem of libraries, frameworks, and tools. Popular libraries and frameworks include Boost, Qt, OpenGL, and OpenCV, among others.
 
-## License
-
-This primer is licensed under the [MIT License]. Feel free to use and modify the content for your learning purposes.
-
-
+<div id="footer" align="center">
+  <img src="https://cdn.svgporn.com/logos/c-plusplus.svg"/>
+</div>
