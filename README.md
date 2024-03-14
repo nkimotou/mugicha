@@ -32,5 +32,5 @@ C++ is widely used in domains such as system programming (operating systems, dev
 C++ has a large and active community of developers contributing to its ecosystem of libraries, frameworks, and tools. Popular libraries and frameworks include Boost, Qt, OpenGL, and OpenCV, among others.
 
 <div id="footer" align="center">
-  <img src="https://cdn.svgporn.com/logos/c-plusplus.svg"/>
+  <img src="https://cdn.svgporn.com/logos/c-plusplus.svg" width = "250"/>
 </div>
